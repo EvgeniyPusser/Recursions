@@ -1,6 +1,13 @@
-﻿ void Fibbo(int a, int b){
-  //Console.Write($" {b}");
-    if(b > 30){
+﻿void Main()
+{
+  Console.Write($"1, 2 \n");
+  Fibbo(11, 20);
+}
+
+ void Fibbo(int a, int b){
+    
+    if(b > 300){
+        
         return;
     }
     b = a + b;
@@ -11,15 +18,15 @@
 //  Console.Write(b + "  ");
     // b = a + b;
     //  Console.Write(a);
-    Console.Write($"{b}  ");пше фвв
+    Console.Write($"{b}  ");
     // //Console.Write($"{a},\t {b}");
     Fibbo(a , b);
     
   }
-   Console.Write($"1, 2");
-  Fibbo(1,2);
+  //  Console.Write($"1, 2 \n");
+  // Fibbo(11, 20);
  
-    
+   Main(); 
 
 
 
